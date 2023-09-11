@@ -1,0 +1,14 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=1279 file=Packages/com.unity.terrain-tools/Editor/TerrainTools/Compute/Projection.compute kernel=GradientSubtract cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=20 km=<UNITY_VERSION=202139> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=4096 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 9 at (-1): HLSLcc: The resource 'VelocityOutTex2D' uses an unsupported type/format
+  error: 1 plat 9 at (-1): HLSLcc: The resource 'VelocityTex2D' uses an unsupported type/format
+ ok=1 outsize=2204
+
+Cmd: compileComputeKernel
+  insize=6468 file=Assets/Future material/Ultimate 10 Plus Shaders/Shaders/Plexus/Plexus.compute kernel=MoveParticels cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=20 km=<UNITY_VERSION=202139> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=4096 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7622
+
+Cmd: shutdown
+
+Quitting shader compiler process
